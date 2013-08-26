@@ -1,0 +1,16 @@
+.:
+archlinux.menu
+archlinux.png
+filelist.txt
+i386
+x86_64
+
+./i386:
+archlinuxmain.menu
+initrd.img
+vmlinuz
+
+./x86_64:
+archlinuxmain.menu
+initrd64.img
+vm64

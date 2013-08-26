@@ -1,0 +1,9 @@
+LABEL ARCH-INSTALLER32
+MENU LABEL ^Arch Linux Install (i386)
+KERNEL er/plugins/archlinux/i386/vmlinuz
+INITRD er/plugins/archlinux/i386/initrd.img
+APPEND vga=normal
+TEXT HELP
+                 Boot the Arch Linux (i386) live medium.
+                 Install Arch Linux or perform system maintenance.
+ENDTEXT

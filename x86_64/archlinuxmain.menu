@@ -1,0 +1,9 @@
+LABEL ARCH-INSTALLER64
+MENU LABEL ^Arch Linux Install (x64)
+KERNEL er/plugins/archlinux/x86_64/vm64
+INITRD er/plugins/archlinux/x86_64/initrd64.img
+APPEND vga=normal
+TEXT HELP
+                 Boot the Arch Linux (x86_64) live medium.
+                 Install Arch Linux or perform system maintenance.
+ENDTEXT
