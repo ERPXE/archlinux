@@ -1,10 +1,6 @@
 MENU BEGIN ARCHLINUX
+MENU TITLE ArchLinux 2011.08.19
 MENU LABEL ^ArchLinux 2011.08.19
-
-# ------====> Include Menu Settings <====------
-MENU INCLUDE er/menuinc/header.module
-
-# ------====> Set Specific Page Settings <====------
 MENU BACKGROUND er/plugins/archlinux/archlinux.png
 
 MENU INCLUDE er/plugins/archlinux/i386/archlinuxmain.menu
